@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #001119;
+}
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+}
+
+.product {
+  margin-top: 24px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#systems-expert {
+  width: 50%;
+  background-color: #890123;
+  align-self: center;
+  order: 1;
+}
+
+#ml-expert {
+  width: 30%;
+  height: 75px;
+  background-color: #f37f1b;
+  order: 1;
+}
+
+#algo-expert {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #626ee3;
+  order: 2;
+}
+
+#frontend-expert {
+  width: 40%;
+  background-color: #12967e;
+  order: 3;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+#programming-expert {
+  height: 75px;
+  background-color: #f21a3f;
+  order: 3;
+  width: 59%;
+}
