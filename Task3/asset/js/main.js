@@ -23,16 +23,15 @@ const arr = [1092, 54, 32, 78, 92];
 /* Custom Reduce Mehtod */
 
 // Array.prototype.customReduce = function (callBackFunction, initialValue = 0) {
-//   let a = 0;
 //   for (let i = 0; i < this.length; i++) {
-//     callBackFunction((a += this[i]));
+//     initialValue = callBackFunction(initialValue, this[i]);
 //   }
-//   return a + initialValue;
+//   return initialValue;
 // };
 
 // const result = arr.customReduce((acc, element) => {
-//   return acc + element;
-// });
+//   return acc - element;
+// }, 10);
 // console.log(result);
 
 /* Custom Filter Method */
